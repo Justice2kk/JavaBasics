@@ -6,9 +6,8 @@ public class Exerc3{
 		Scanner input;
 		input = new Scanner(System.in);
 		
-		
 		System.out.println("Enter street number:");
-		String stNum		= input.nextLine();
+		int stNum		= input.nextLine;
 		
 		System.out.println("Enter street name:");
 		String stName	= input.nextLine();

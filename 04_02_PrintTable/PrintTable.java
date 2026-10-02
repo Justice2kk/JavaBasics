@@ -25,11 +25,11 @@ public class PrintTable {
         String lastname4 = "Pink";
         String subject4 = "Physics";
 
-        System.out.printf("|NAME\t|");    // HEADERS
-        System.out.printf("/*   */");    // LINE
-        System.out.printf("/*   */");    // STUDENT 1
-        System.out.printf("/*   */");    // STUDENT 2
-        System.out.printf("/*   */");    // STUDENT 3
-        System.out.printf("/*   */");    // STUDENT 4
+        System.out.printf("|%-10s|%-10s|%-10s|%-10s|%-10s|%n", "NAME", "LASTNAME", "AGE", "SUBJECT", "GRADE" );    // HEADERS
+        System.out.printf("|----------|----------|----------|----------|----------|%n" );
+        System.out.printf("|%-10s|%-10s|%10d|%-10S|%10.2f|%n", name1, lastname1, age1, subject1, grade1 );    //STUDENT1
+        System.out.printf("|%-10s|%-10s|%10d|%-10S|%10.2f|%n", name2, lastname2, age2, subject2, grade2 );    //STUDENT2
+        System.out.printf("|%-10s|%-10s|%10d|%-10S|%10.2f|%n", name3, lastname3, age3, subject3, grade3 );    //STUDENT3
+        System.out.printf("|%-10s|%-10s|%10d|%-10S|%10.2f|%n", name4, lastname4, age4, subject4, grade4 );    //STUDENT4
     }
 }
