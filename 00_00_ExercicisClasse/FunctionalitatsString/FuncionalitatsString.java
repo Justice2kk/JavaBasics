@@ -35,5 +35,23 @@ public class FuncionalitatsString{
 			System.out.println("La teva frase es més gran!");
 		}
 		
+		
+		// Ordenar de menor a major les dues frases i motrar la longitud.
+		System.out.println("////////ACTIVITAT LONGITUD////////");
+		System.out.println("Dona'm la teva primera frase:");
+		
+		String ph1 = input.nextLine();
+		
+		System.out.println("Dona'm la teva segona frase:");
+		String ph2 = input.nextLine();
+		
+		System.out.println("Dona'm la teva tercera frase:");
+		String ph3 = input.nextLine();
+		
+		int n1 = ph1.length();
+		int n2 = ph2.length();
+		int n3 = ph3.length();
+		
+		System.out.printf("%S(%d) + %S(%d) + %S(%d)", ph1, n1, ph2, n2, ph3, n3);
 	}
 }
