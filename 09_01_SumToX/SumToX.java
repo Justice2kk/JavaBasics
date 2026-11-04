@@ -7,8 +7,10 @@ public class SumToX{
 		int num = 0;
 		int numChosen = 0;
 		int res = 0;
-		int prevNum = 0;
 		int tValue = 0;
+		
+		int numComodo = 0;
+		int numSum = 0;
 	
 		System.out.println("Enter number > 10:");
 		numChosen = input.nextInt();
@@ -19,7 +21,9 @@ public class SumToX{
 		}
 		
 		while (num <= numChosen){
-			prevNum += num;
+			numComodo++;
+			numComodo += (numSum+1)
+			
 			num++;
 			
 			tValue = prevNum + num;
