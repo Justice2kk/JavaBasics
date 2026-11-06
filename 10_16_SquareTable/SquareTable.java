@@ -13,7 +13,7 @@ public class SquareTable{
 		}	
 		
 		for (int i = 1; i<= imax; i++){
-			st += (i + "^2=" + ((int)Math.pow(i, 2)) );
+			st += (i + "^2=" + (i*i) );
 			
 			while (i != imax){
 				st += ", ";
