@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class CountLetter {
 	public static void main(String[] args) {
 		Scanner ip = new Scanner(System.in);
-		String u;
+		char u;
 		String car = "";
 		String lt = "";
 		int ct = 0;
@@ -16,14 +16,14 @@ public class CountLetter {
 		
 		int leng = car.length();
 		
-		for (int i = 0; i <= leng; i++) {
+		for (int i = 0; i < leng; i++) {
 			u = car.charAt(i);
-			
-			if (u = lt) {
+
+			if (u == lt.charAt(0)) {
 				ct++;
 			}
 		}
 		
-		System.out.printf("Occurrences: %d", ct);
+		System.out.printf("Occurrences: %d%n", ct);
 	}
 }
